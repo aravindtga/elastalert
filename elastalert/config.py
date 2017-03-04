@@ -148,7 +148,7 @@ def load_options(rule, conf, args=None):
     rule.setdefault('timestamp_field', '@date')
     rule.setdefault('filter', [])
     rule.setdefault('timestamp_type', 'custom')
-    rule.setdefault('timestamp_format', '%Y-%m-%d %H:%M:%S.%f')
+    rule.setdefault('timestamp_format', '%Y-%m-%d %H:%M:%S.%j')
     rule.setdefault('_source_enabled', True)
     rule.setdefault('use_local_time', True)
     rule.setdefault('description', "")
